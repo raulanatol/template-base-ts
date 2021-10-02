@@ -1,0 +1,24 @@
+{
+  "name": "template-base-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raulanatol/template-base-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raulanatol/template-base-ts/issues"
+  },
+  "homepage": "https://github.com/raulanatol/template-base-ts#readme",
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
+}
