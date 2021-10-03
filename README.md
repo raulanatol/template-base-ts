@@ -18,3 +18,14 @@ npm run build
 npm run lint
 ```
 
+## Run project (TS)
+
+```shell
+npm run start
+```
+
+## Run compiled project (JS)
+
+```shell
+npm run start:prod
+```

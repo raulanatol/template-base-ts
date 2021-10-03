@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start:prod": "npm run build && node dist/index.js",
+    "start": "ts-node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "lint": "eslint --max-warnings 0 . --ext .ts"
@@ -20,10 +22,11 @@
   },
   "homepage": "https://github.com/raulanatol/template-base-ts#readme",
   "devDependencies": {
-    "@cowcoders/eslint-config": "^1.2.11",
-    "@typescript-eslint/eslint-plugin": "^4.32.0",
-    "@typescript-eslint/parser": "^4.32.0",
-    "eslint": "^7.32.0",
-    "typescript": "^4.4.3"
+    "@cowcoders/eslint-config": "1.2.11",
+    "@typescript-eslint/eslint-plugin": "4.32.0",
+    "@typescript-eslint/parser": "4.32.0",
+    "eslint": "7.32.0",
+    "ts-node": "10.2.1",
+    "typescript": "4.4.3"
   }
 }
